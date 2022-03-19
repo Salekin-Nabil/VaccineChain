@@ -10,11 +10,11 @@
 
 (using ganche & meta mask as wallet & local host) // (atmost one account can be accessed/registered through one wallet)
 
-3. Run the method "setLocation" from outside (in remix / truffle) before going to the frontend where not input is required, just press it.
+3. Run the method "setLocation" from outside (in remix / truffle) before going to the frontend where no input is required, just press it.
 
 (path :: Contract:location --> Method:setLocation)
 
-4. Then copy the ABI of the contracts and put them into the specified variable in the java script section of each front end files.
+4. Then copy the ABI of the contracts and put them into the specified variable in the contract.js file.
 
 5. Done! Ready to operate from the Front end now...
 
